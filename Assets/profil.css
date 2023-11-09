@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+figure.card {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 380px;
+    max-width: 480px;
+    width: 100%;
+    height: 400px;
+    background: #ffffff;
+    color: #000000;
+  }
+  figure.card * {
+      height: 200px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  figure.card > img {
+    background-image: url('Profil.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 50%;
+    border-radius: 50%;
+    border: 4px solid #623737;
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    position: relative;
+    float: right;
+    right: -13%;
+  }
+  figure.card figcaption {
+    padding: 20px 30px 20px 20px;
+    position: absolute;
+    left: 0;
+    height: 150px;
+    width: 50%;
+  }
+  figure.card figcaption h2,
+  figure.card figcaption p {
+    margin: 0;
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+  }
+  figure.card figcaption h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+  }
+  figure.card figcaption h2 span {
+    font-weight: 800;
+    color: #000000;
+  }
+  figure.card figcaption p {
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
+  figure.card figcaption .icons {
+    width: 100%;
+    text-align: left;
+  }
+  figure.card figcaption .icons i {
+    font-size: 26px;
+    padding: 5px;
+    top: 50%;
+    color: #000000;
+  }
+  .icons i:hover {color: #b71540 !important; cursor: pointer;}
+  figure.card figcaption a {
+    opacity: 0.3;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+  }
+  
+  figure.card .position {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 0.9em;
+    opacity: 1;
+    color: #000000;
+    background:#bd9261;
+    clear: both;
+    font-weight: bold;
+  }
+  figure.card:hover > img,
+  figure.card.hover > img {
+    right: -12%;
+  }
